@@ -8,10 +8,10 @@ public class Circle extends Figure{
     }
 
     public double getPerimeter() {
-        return 0;
+        return 2 * radius * Math.PI;
     }
 
     public double getArea() {
-        return 0;
+        return Math.PI * Math.sqrt(radius);
     }
 }
